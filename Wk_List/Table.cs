@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Wk_List
 {
-    public class Table<T, U, Z>
+   public class Table<T, U, Z>
     {
         public static List<T> St { get; set; }
         public static List<U> Su { get; set; }
@@ -21,6 +21,11 @@ namespace Wk_List
             St.Add(st);
             Su.Add(su);
             Sz.Add(sz);
+        }
+
+        public void Print()
+        {
+
         }
     }
     }

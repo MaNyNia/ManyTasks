@@ -4,9 +4,8 @@ using System.Text;
 
 namespace Wk_List
 {
-    public class Line
+    public class Line 
     {
-
         static int tableWidth = 40;
 
         public void PrintLine()
@@ -24,7 +23,6 @@ namespace Wk_List
             {
                 row += AlignCentre(column, width) + "|";
             }
-
             Console.WriteLine(row);
         }
         //Define input center
@@ -39,6 +37,10 @@ namespace Wk_List
             else
             {
                 return text.PadRight(width - (width - text.Length) / 2).PadLeft(width);
+            }
+
+            void Text(string txt)
+            {
             }
         }
     }
